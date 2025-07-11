@@ -1,0 +1,67 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: lightblue;
+}
+
+form {
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: skyblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#course {
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: wheat;
+    color: black;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+h3 {
+    margin-top: 30px;
+    display: none;
+}
+
+.database {
+    width: fit-content;
+    display: none;
+    background-color: skyblue;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
